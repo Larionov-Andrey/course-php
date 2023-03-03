@@ -38,32 +38,15 @@ echo '<br>' . $day . '<br>';
 
 switch ($day) {
     case 1:
-        echo 'Это рабочий день' . '<br>';
-        echo 'Сегодня понедельник';
-        break;
     case 2:
-        echo 'Это рабочий день' . '<br>';
-        echo 'Сегодня Вторник';
-        break;
     case 3:
-        echo 'Это рабочий день' . '<br>';
-        echo 'Сегодня среда';
-        break;
     case 4:
-        echo 'Это рабочий день' . '<br>';
-        echo 'Сегодня четверг';
-        break;
     case 5:
         echo 'Это рабочий день' . '<br>';
-        echo 'Сегодня Пятница';
         break;
     case 6:
-        echo 'Это выходной день' . '<br>';
-        echo 'Сегодня суббота';
-        break;
     case 7:
         echo 'Это выходной день' . '<br>';
-        echo 'Сегодня воскресенье';
         break;
     default:
         echo "Неизвестный день";
